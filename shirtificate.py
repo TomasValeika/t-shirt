@@ -11,6 +11,7 @@ class PDF(FPDF):
             y=50,
             w=200,
             keep_aspect_ratio=True,
+            
         )
 
     def add_text_on_shirt(self, text_input='XXXX took CS50') -> None:
